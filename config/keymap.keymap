@@ -21,21 +21,21 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp N1        &kp N2        &kp N3        &kp N4                   &kp N5                                       &kp N6       &kp N7    &kp N8     &kp N9    &kp N0                &kp BSPC
-&kp TAB    &kp Q         &kp W         &kp E         &kp R                    &kp T                                        &kp Y        &kp U     &kp I      &kp O     &kp P                 &kp MINUS
-&kp LCTRL  &lt 3 A       &lt 3 S       &kp D         &kp F                    &kp G        &mkp LCLK     &mkp RCLK         &kp H        &kp J     &kp K      &lt 1 L   &lt 2 SEMICOLON       &lt 3 SQT
-&kp LSHFT  &kp Z         &kp X         &kp C         &kp V                    &kp B        &kp SPACE     &kp BACKSPACE     &kp N        &kp M     &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &kp BACKSLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_ALT  &kp LEFT_WIN  &mt LEFT_WIN LANGUAGE_2  &lt 1 SPACE  &lt 2 ESCAPE  &lt 1 LANGUAGE_1  &lt 2 ENTER  &kp BSPC  &kp RALT   &kp RGUI  &kp RCTRL             &kp RCTRL
+&kp ESC    &kp N1        &kp N2        &kp N3        &kp N4                   &kp N5                                               &kp N6       &kp N7    &kp N8     &kp N9    &kp N0                &kp BSPC
+&kp TAB    &kp Q         &kp W         &kp E         &kp R                    &kp T                                                &kp Y        &kp U     &kp I      &kp O     &kp P                 &kp MINUS
+&kp LCTRL  &lt 3 A       &lt 3 S       &kp D         &kp F                    &kp G        &mkp LCLK             &mkp RCLK         &kp H        &kp J     &kp K      &lt 1 L   &lt 2 SEMICOLON       &lt 3 SQT
+&kp LSHFT  &kp Z         &kp X         &kp C         &kp V                    &kp B        &kp LG(LS(NUMBER_4))  &kp BACKSPACE     &kp N        &kp M     &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &kp BACKSLASH
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_ALT  &kp LEFT_WIN  &mt LEFT_WIN LANGUAGE_2  &lt 1 SPACE  &lt 2 ESCAPE          &lt 1 LANGUAGE_1  &lt 2 ENTER  &kp BSPC  &kp RALT   &kp RGUI  &kp RCTRL             &kp RCTRL
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans         &trans                    &trans            &trans                     &trans                                             &trans         &trans          &trans        &trans     &trans  &trans
-&trans  &trans         &kp LA(LEFT)              &kp LA(UP_ARROW)  &kp LA(RIGHT)              &trans                                             &trans         &trans          &kp UP_ARROW  &trans     &trans  &trans
-&trans  &kp LG(MINUS)  &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW      &kp LS(LG(RIGHT_BRACKET))  &kp LS(LG(EQUAL))  &trans                &trans    &trans         &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans         &trans                    &trans            &trans                     &mkp MB4           &mkp MB4              &mkp MB5  &mkp MB5       &mkp LCLK       &mkp RCLK     &trans     &mo 4   &trans
-&trans  &trans         &trans                    &trans            &trans                     &trans             &kp LS(LG(NUMBER_4))  &trans    &kp LG(SPACE)  &trans          &trans        &trans     &trans  &trans
+&trans  &trans         &trans                    &trans            &trans                     &trans                                 &trans         &trans          &trans        &trans     &trans  &trans
+&trans  &trans         &kp LA(LEFT)              &kp LA(UP_ARROW)  &kp LA(RIGHT)              &trans                                 &trans         &trans          &kp UP_ARROW  &trans     &trans  &trans
+&trans  &kp LG(MINUS)  &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW      &kp LS(LG(RIGHT_BRACKET))  &kp LS(LG(EQUAL))  &trans    &trans    &trans         &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans         &trans                    &trans            &trans                     &trans             &trans    &trans    &trans         &mkp LCLK       &mkp RCLK     &trans     &mo 4   &trans
+&trans  &trans         &trans                    &trans            &trans                     &trans             &mkp MB4  &mkp MB5  &kp LG(SPACE)  &trans          &trans        &trans     &trans  &trans
             >;
         };
 
